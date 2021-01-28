@@ -1,0 +1,58 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 45px;
+    border-radius: 20px;
+    }
+.container{
+  width: 1000px;
+  text-align: center;
+  margin: 5% 25% 10% 25%;
+}
+.logo{
+  width: 20%;
+}
+.logo-text{
+  color: #66FF66;
+  font-size: 30px;
+  margin-left: inherit;
+  text-align: center;
+}
+.navigation{
+  background: rgb(173, 255, 47);
+  padding: 6px 100px;
+  margin: -3px -5px;
+  line-height: 2;
+  border-radius: 0px;
+  text-align: center;
+}
+.first,.second,.third {
+  line-height: 2px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: white;
+}
+.first-progress{
+  height: 2em;
+  background-color: #faa732;
+  border-radius: 5px;
+  width: 30%;
+}
+.second-progress{
+  height: 2em;
+  background-color: #66FF66;
+  border-radius: 5px;
+  width: 50%;
+}
+.third-progress{
+  height: 2em;
+  background-color: #FA8072;
+  border-radius: 5px;
+  width: 10%;
+}
+h1, h2, p{
+  font-family: sans-serif;
+}
